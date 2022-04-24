@@ -1,0 +1,188 @@
+.bg{
+    background-color: rgb(41, 40, 40);
+    
+}
+.carousel{
+    /* background-color: aqua; */
+    display: grid;
+    justify-content: center;
+    align-items: center; 
+}
+.BsFillCartCheckFill{
+    background-color: aliceblue;
+}
+.poster{
+    width: 230px;
+    height: 250px;
+    border-radius: 3px;
+}
+
+.container{
+    background-color: rgb(193, 191, 191);
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    min-height:100vh ;
+    max-width:160vh;
+    padding: 0;
+
+}
+.card{
+    background-color: rgb(255, 255, 255);
+    margin: 10px 20px;
+    max-width: 230px;
+    height: 360px;
+    border: 0;
+    border-radius: 5px;
+     
+}
+.card > img:hover{
+    cursor: pointer;
+    border: 3px solid goldenrod;
+}
+.card > p{
+    /* background-color: rgb(225, 0, 255); */
+    max-height: auto;
+    margin:0 auto;
+    font-weight:600;
+   
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: fixed; */
+    background-color: #04293A;
+    color: aliceblue;
+    height: 60px;
+    width: 100%;
+    /* top: 20; */
+    font: 1.5rem sans-serif;
+    font-weight: 550;
+
+}
+
+.original_title{
+    font-size: 1.3rem;
+}
+
+.buybuy{
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    
+}
+.btm-buy{
+    background-color: goldenrod;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    bottom: 0;
+    padding-top:8px;
+    min-height: 40px;
+    min-width: 230px;
+    border: none;
+    font-size: 1.25rem;
+    font-weight: 550;
+    border-radius: 2px;
+
+    
+}
+.btm-buy:hover{
+    cursor: pointer;
+    background-color: rgb(176, 57, 57);
+}
+
+.select{
+    background-color: brown;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    width: 25px;
+    border-radius: 10px;
+    font-size: 0.9rem;
+    right: 5px;
+    bottom: 6px;
+    position: relative;
+    z-index: 99;
+       
+}
+
+.BsFillCartPlusFill{
+    /* background-color: aqua; */
+    display: flex;
+    position: relative;
+    right: -12px;
+    /* bottom: -3px; */
+}
+
+.BsFillCartPlusFill:hover{
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+
+.box-1{
+    /* background-color: blueviolet; */
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    right: 0;
+    width: 100%;
+    height: 60px;
+}
+
+.dataCart{
+    
+    background-color: aliceblue;
+    color: black;
+    width: 100%;
+    height: 150px;
+    
+}
+
+.Ccontainer{
+    background-color: rgb(193, 191, 191);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width:100%;
+    padding: 0;
+  
+}
+
+.Ccard{
+    background-color: rgb(255, 255, 255);
+    margin: 10px 10px;
+    width: 100px;
+    border-radius: 3px;
+    height: auto;
+    border: 0;  
+}
+
+.Cposter{
+    width: 100px;
+    height: 120px;
+    border-radius: 3px;
+}
+
+.Cposter:hover{
+    cursor: pointer;
+    border: 2px solid goldenrod;
+}
+
+.Ctitle{
+    display: flex;
+    justify-content: center;
+    padding-top: 3px;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.Cprice{
+    display: flex;
+    justify-content: center;
+    font-size: 0.8rem;
+    font-weight: 600;
+}

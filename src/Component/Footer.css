@@ -1,0 +1,43 @@
+.footer {
+  background-color: #343a40;
+  color: #ffffff;
+  padding: 40px 0;
+}
+
+.footer li {
+  padding: 0 10px;
+}
+
+.footer ul a {
+  color: #ffffff;
+}
+
+.social {
+  /* background-color: aqua; */
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.copyright {
+  /* background-color: #4b4c4d; */
+  color: rgb(255, 255, 255);
+  margin-top: 15px;
+  text-align: center;
+  font-size: 12px;
+  margin-bottom: 0;
+}
+
+.list {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  list-style: none;
+}
+
+.icons{
+  margin: 0 10px;
+  font-size: 30px;
+  color: #ffffff;
+}
+
+
