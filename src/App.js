@@ -12,7 +12,7 @@ function App() {
       <Header/>
       <Routes>
         <Route path='/' element={<Home/>}></Route>
-        <Route path='/Header' element={<Header/>}></Route>
+        {/* <Route path='/Header' element={<Header/>}></Route> */}
         <Route path='/Search/:text' element={<Search/>}></Route>
       </Routes>
       <Footer/>
